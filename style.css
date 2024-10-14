@@ -1,0 +1,152 @@
+body {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.hero-bg {
+    background-image: url(images/Hero-bg.png);
+    text-align: center;
+    margin: 50px 20px;
+
+}
+
+.hero-bg h2 {
+    font-size: 48px;
+    font-family: "Azeret Mono", monospace;
+}
+
+.hero-bg p {
+    font-size: 16px;
+    font-family: "Azeret Mono", monospace;
+    color: rgb(13, 19, 33);
+    font-weight: 400;
+}
+
+.hero-bg button {
+    background-color: black;
+    color: white;
+    padding: 16px 34px 16px 34px;
+    border-radius: 8px;
+    margin: 20px 10px;
+    
+
+}
+
+.button{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.web-dev-bg {
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.web-dev-title {
+    text-align: center;
+    padding: 30px;
+
+
+}
+
+.card-1 {
+    display: flex;
+    margin: 20px auto;
+    max-width: 1080px;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+
+}
+
+.card-1 button {
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.inspiration {
+    text-align: center;
+    margin: 40px auto;
+    max-width: 900px;
+}
+
+.youtube-vid {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    border: 1px solid;
+    max-width: 560px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.current-target {
+    display: flex;
+    max-width: 1080px;
+    margin: auto;
+}
+
+.html-1 {
+    padding: 20px;
+    margin: 10px;
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+}
+
+.next-card-1 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    max-width: 1080px;
+    margin: 20px auto;
+    border: 1px solid #3333;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.need-support {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(48, 48, 48, 0.3)), url(images/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1140px;
+    height: 313px;
+    margin: 50px auto;
+    text-align: center;
+    color: white;
+    align-content: center;
+    border-radius: 16px;
+    over
+}
+
+#form {
+    height: 37px;
+    width: 548px;
+    padding: 5px 5px 5px 15px;
+    border-radius: 8px;
+}
+
+#form-button {
+    height: 53px;
+    width: 120px;
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+    background-color: #0D132108;
+}
